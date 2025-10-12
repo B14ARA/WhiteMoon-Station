@@ -179,6 +179,41 @@
 	use_static = TRUE
 	hides_breasts = TRUE
 
+/datum/sprite_accessory/underwear/fluff_swimsuit
+	name = "One-Piece Swimsuit"
+	icon_state = "fluff_swimsuit"
+	gender = FEMALE
+	use_static = TRUE
+	hides_breasts = TRUE
+
+/datum/sprite_accessory/underwear/fluff_swimsuit_school
+	name = "One-Piece Swimsuit - Blue"
+	icon_state = "fluff_swimsuit_school"
+	gender = FEMALE
+	use_static = TRUE
+	hides_breasts = TRUE
+
+/datum/sprite_accessory/underwear/fluff_latex_bodysuit
+	name = "Latex Bodysuit"
+	icon_state = "fluff_latex_bodysuit"
+	gender = FEMALE
+	use_static = TRUE
+	hides_breasts = TRUE
+
+/datum/sprite_accessory/underwear/fluff_latex_bodysuit_blue
+	name = "Latex Bodysuit - Blue"
+	icon_state = "fluff_latex_bodysuit_blue"
+	gender = FEMALE
+	use_static = TRUE
+	hides_breasts = TRUE
+
+/datum/sprite_accessory/underwear/fluff_latex_bodysuit_catcrin
+	name = "Full-Body Latex Bodysuit"
+	icon_state = "fluff_latex_bodysuit_catcrin"
+	gender = FEMALE
+	use_static = TRUE
+	hides_breasts = TRUE
+
 //Fishnets
 /datum/sprite_accessory/underwear/fishnet_lower
 	name = "Panties - Fishnet"
