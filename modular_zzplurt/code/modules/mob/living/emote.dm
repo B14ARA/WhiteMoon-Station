@@ -1322,7 +1322,7 @@
 		return ..()
 	return FALSE
 
-/datum/emote/living/carbon/human/piss/run_emote(mob/user, params, type_override, intentional)
+/datum/emote/living/carbon/human/piss/run_emote(mob/user, params, type_override, intentional, message_override = null)
 	. = ..()
 	if(!user.get_organ_slot(ORGAN_SLOT_BLADDER) || !ishuman(user))
 		to_chat(user, "<span class='warning'>You don't have a bladder!</span>")

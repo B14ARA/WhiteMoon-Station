@@ -5,12 +5,12 @@
 	access_view = ACCESS_WEAPONS
 	contains = list(/obj/item/gun/energy/disabler/smg)
 
-/datum/supply_pack/goody/lasercarbine_single
-	name = "Laser Carbine Single-Pack"
-	desc = "Contains one laser carbine, an automatic variant of the laser gun. For when you need a fast-firing lethal-only solution."
-	cost = PAYCHECK_COMMAND * 7
-	access_view = ACCESS_WEAPONS
-	contains = list(/obj/item/gun/energy/laser/carbine)
+// /datum/supply_pack/goody/lasercarbine_single
+// 	name = "Laser Carbine Single-Pack"
+// 	desc = "Contains one laser carbine, an automatic variant of the laser gun. For when you need a fast-firing lethal-only solution."
+// 	cost = PAYCHECK_COMMAND * 7
+// 	access_view = ACCESS_WEAPONS
+// 	contains = list(/obj/item/gun/energy/laser/carbine)
 
 /datum/supply_pack/goody/miniegun_single
 	name = "Mini E-Gun Single-Pack"
