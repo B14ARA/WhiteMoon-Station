@@ -1315,6 +1315,7 @@
 
 /datum/emote/living/carbon/human/piss
 	key = "piss"
+	cooldown = 10 MINUTES
 
 /datum/emote/living/carbon/human/piss/can_run_emote(mob/user, status_check = TRUE, intentional, params)
 	var/obj/item/organ/bladder/bladder = user.get_organ_slot(ORGAN_SLOT_BLADDER)
