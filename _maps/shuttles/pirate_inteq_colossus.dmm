@@ -247,13 +247,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
 /area/shuttle/pirate)
-"jF" = (
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 8
-	},
-/obj/machinery/suit_storage_unit/inteq_mod,
-/turf/open/floor/iron/dark,
-/area/shuttle/pirate)
 "jN" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
@@ -982,6 +975,9 @@
 /area/shuttle/pirate)
 "Av" = (
 /obj/machinery/light,
+/obj/effect/mob_spawn/ghost_role/human/pirate/inteq/warlord{
+	dir = 8
+	},
 /turf/open/floor/carpet/royalblack,
 /area/shuttle/pirate)
 "AC" = (
@@ -1661,12 +1657,6 @@
 /obj/machinery/firealarm/directional/south,
 /turf/open/floor/pod/dark,
 /area/shuttle/pirate)
-"Sy" = (
-/obj/effect/mob_spawn/ghost_role/human/pirate/inteq/warlord{
-	dir = 8
-	},
-/turf/open/floor/carpet/royalblack,
-/area/shuttle/pirate)
 "Sz" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/effect/decal/cleanable/dirt,
@@ -2258,7 +2248,7 @@ uG
 Kf
 Fg
 LD
-jF
+LD
 Es
 aL
 uG
@@ -2518,7 +2508,7 @@ Kn
 (31,1,1) = {"
 Kn
 ql
-Sy
+BP
 ty
 Wi
 ta
